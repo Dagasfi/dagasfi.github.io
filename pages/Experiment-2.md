@@ -2,8 +2,10 @@
 layout: default
 ---
 
-# Second experiment: Measuring the User Experience with Adaptive Graphical Menus using EEG: A Replication Study
+# Second experiment: Replication Study
 
+
+Protocol ----
 
 
 # Instrumentation

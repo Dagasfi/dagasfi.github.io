@@ -9,7 +9,7 @@ In this webpage, you will be able to find every material used in every experimen
 The following experiments were conducted:
 
 
-## [Comparing Preference of Graphical Adaptive Menus with Performance by EEG](./Experiment-1.html#)
+## [Comparing Preference of Graphical Adaptive Menus with Performance by EEG](./pages/Experiment-1.html)
 
 [Click here](./pages/Experiment-1.html#Instrumentation) to go to the experiment instrumentation.
 

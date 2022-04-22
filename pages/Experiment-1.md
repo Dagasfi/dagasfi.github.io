@@ -2,8 +2,10 @@
 layout: default
 ---
 
-# First experiment: Comparing Preference of Graphical Adaptive Menus with Performance by EEG
+# First experiment
 
+
+Protocol ----
 
 
 # Instrumentation
