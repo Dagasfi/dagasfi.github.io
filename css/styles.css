@@ -1,0 +1,74 @@
+/* styles.css */
+
+:root {
+    --background-color: #fff; /* Default light mode background color */
+    --text-color: #333; /* Default light mode text color */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--text-color);
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+
+/* Style the header */
+header {
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Style the navigation links */
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Dark Mode Toggle Buttons */
+.dark-mode-toggle {
+    position: fixed;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1001; /* Ensure it's above the header */
+}
+
+.dark-mode-toggle button {
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+
+
+/* Dark Mode */
+.dark-mode {
+    --background-color: #333; /* Dark mode background color */
+    --text-color: #fff; /* Dark mode text color */
+}
+
