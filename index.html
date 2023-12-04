@@ -3,10 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Website</title>
+    <title>Dagasfi - Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/styles.css">
+    
+	<script src="js/main.js"></script>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>Welcome to my personal website!</p>
+
+<!-- Dark Mode Toggle Buttons -->
+<div class="dark-mode-toggle">
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+</div>
+
+<!-- Fixed Header -->
+<header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <!-- Add more links as needed -->
+    </nav>
+</header>
+
+<!-- Main Content -->
+<div class="container mt-5">
+    <div class="jumbotron">
+        <h1 class="display-4">Hello, I'm Your Name</h1>
+        <p class="lead">Welcome to my personal website. I'm passionate about...</p>
+        <hr class="my-4">
+        <!-- Add more content as needed -->
+    </div>
+</div>
+
+<!-- Bootstrap JS and Popper.js (for Bootstrap dropdowns, modals, etc.) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
