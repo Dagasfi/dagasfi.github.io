@@ -9,15 +9,38 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
 	<link rel="stylesheet" href="css/styles.css">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
     
 	<script src="js/main.js"></script>
 </head>
 <body>
 
-<!-- Dark Mode Toggle Buttons -->
-<div class="dark-mode-toggle">
-    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+<!-- Accessibility Section -->
+<div class="accessibility-section">
+    <div class="toggle-icon">
+        <button class="btn btn-primary" onclick="toggleAccessibilityIcons()">
+            <i class="fas fa-universal-access"></i>
+        </button>
+    </div>
+    <div class="icons-container">
+        <button class="btn btn-primary" onclick="changeFontSize('increase')">
+            <i class="fas fa-plus"></i>
+        </button>
+        <button class="btn btn-dark" onclick="toggleDarkMode()">
+            <i class="fas fa-moon"></i>
+        </button>
+        <button class="btn btn-primary" onclick="changeFontSize('decrease')">
+            <i class="fas fa-minus"></i>
+        </button>
+    </div>
 </div>
+
+
+
 
 <!-- Fixed Header -->
 <header>
@@ -33,12 +56,60 @@
 <!-- Main Content -->
 <div class="container mt-5">
     <div class="jumbotron">
-        <h1 class="display-4">Hello, I'm Your Name</h1>
-        <p class="lead">Welcome to my personal website. I'm passionate about...</p>
+        <h1 class="display-4">Hello! I'm Daniel Gaspar-Figueiredo</h1>
+        <p class="lead">I'm currently a Ph.D. student in Computer Science at the Polytechnic University of Valencia (UPV). My research focuses on the field of Adaptive User Interfaces using Reinforcement Learning.</p>
         <hr class="my-4">
         <!-- Add more content as needed -->
     </div>
 </div>
+
+<!-- Message indicating the webpage is under progress -->
+<div style="background-color: #f8f9fa; padding: 20px; text-align: center;">
+    <p style="font-size: 18px; color: #007bff;">This website is currently under construction. Thank you for your patience!</p>
+</div>
+
+<!-- My Hobbies Section -->
+<section class="hobbies-section">
+    <div class="hobby-card">
+        <img src="" alt="Hobby 1">
+        <h3>Hobby 1</h3>
+        <p>Description of Hobby 1.</p>
+    </div>
+
+    <div class="hobby-card">
+        <img src="" alt="Hobby 2">
+        <h3>Hobby 2</h3>
+        <p>Description of Hobby 2.</p>
+    </div>
+    <div class="hobby-card">
+        <img src="" alt="Hobby 2">
+        <h3>Hobby 2</h3>
+        <p>Description of Hobby 3.</p>
+    </div>
+    <div class="hobby-card">
+        <img src="" alt="Hobby 2">
+        <h3>Hobby 2</h3>
+        <p>Description of Hobby 4.</p>
+    </div>
+    
+
+    <!-- Add more hobby cards as needed -->
+</section>
+
+
+
+
+
+<div class="container social-media">
+    <h3>Connect with Me on Social Media</h3>
+    <ul>
+        <li><a href="https://twitter.com/Dagasfi" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+        <li><a href="https://www.linkedin.com/in/daniel-gaspar-figueiredo-55652a17b/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+        <li><a href="https://github.com/Dagasfi" target="_blank"><i class="fab fa-github"></i>GitHub</a></li>
+    </ul>
+</div>
+
+
 
 <!-- Bootstrap JS and Popper.js (for Bootstrap dropdowns, modals, etc.) -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
